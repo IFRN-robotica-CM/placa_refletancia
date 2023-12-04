@@ -159,10 +159,10 @@
 <wire x1="5.15" y1="-1.4" x2="5.15" y2="1.4" width="0.127" layer="51"/>
 <wire x1="3.6" y1="-2.95" x2="5.15" y2="-1.4" width="0.127" layer="51"/>
 <wire x1="3.6" y1="2.95" x2="5.15" y2="1.4" width="0.127" layer="51"/>
-<pad name="COLL" x="-2.75" y="1.27" drill="1" diameter="1.524" shape="offset" rot="R90"/>
+<pad name="COLL" x="-2.75" y="1.27" drill="1" diameter="1.524" shape="offset" rot="R180"/>
 <pad name="E" x="-2.75" y="-1.27" drill="1" diameter="1.524" shape="square" rot="R270"/>
-<pad name="A" x="2.75" y="1.27" drill="1" diameter="1.524" shape="offset" rot="R90"/>
-<pad name="CATH" x="2.75" y="-1.27" drill="1" diameter="1.524" shape="offset" rot="R270"/>
+<pad name="A" x="2.75" y="1.27" drill="1" diameter="1.524" shape="offset"/>
+<pad name="CATH" x="2.75" y="-1.27" drill="1" diameter="1.524" shape="offset"/>
 <hole x="-4.65" y="-2.45" drill="1"/>
 <hole x="0" y="-1.9" drill="2.5"/>
 <hole x="0" y="1.9" drill="2.5"/>
@@ -5044,14 +5044,14 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="ESQUERDO" library="TCRT5000" deviceset="TCRT5000" device=""/>
 <part name="DIREITO" library="TCRT5000" deviceset="TCRT5000" device=""/>
 <part name="+DIREITO" library="TCRT5000" deviceset="TCRT5000" device=""/>
-<part name="270Ω" library="rcl_robotica" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="270Ω"/>
-<part name="270Ω." library="rcl_robotica" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="270Ω"/>
-<part name="270Ω*" library="rcl_robotica" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="270Ω"/>
-<part name="270Ω," library="rcl_robotica" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="270Ω"/>
-<part name="10KΩ*" library="rcl_robotica" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10KΩ"/>
-<part name="10KΩ." library="rcl_robotica" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10KΩ"/>
-<part name="10KΩ," library="rcl_robotica" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10KΩ"/>
-<part name="10KΩ" library="rcl_robotica" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10KΩ"/>
+<part name="R33" library="rcl_robotica" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="270Ω"/>
+<part name="R32" library="rcl_robotica" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="270Ω"/>
+<part name="R13" library="rcl_robotica" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="270Ω"/>
+<part name="R12" library="rcl_robotica" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="270Ω"/>
+<part name="R11" library="rcl_robotica" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10KΩ"/>
+<part name="R14" library="rcl_robotica" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10KΩ"/>
+<part name="R31" library="rcl_robotica" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10KΩ"/>
+<part name="R34" library="rcl_robotica" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10KΩ"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
@@ -5077,10 +5077,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="270." library="rcl_robotica" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="270Ω"/>
-<part name="10K." library="rcl_robotica" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10KΩ"/>
-<part name="10K" library="rcl_robotica" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10KΩ"/>
-<part name="270" library="rcl_robotica" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="270Ω"/>
+<part name="R24" library="rcl_robotica" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="270Ω"/>
+<part name="R23" library="rcl_robotica" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10KΩ"/>
+<part name="R21" library="rcl_robotica" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10KΩ"/>
+<part name="R22" library="rcl_robotica" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="270Ω"/>
 <part name="CENTRO" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-04-PIN" device="-LONG-PAD" value=""/>
 </parts>
 <sheets>
@@ -5104,35 +5104,35 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="NAME" x="48.25133125" y="51.444759375" size="1.781040625" layer="95"/>
 <attribute name="VALUE" x="48.256190625" y="40.000709375" size="1.77933125" layer="96" align="top-left"/>
 </instance>
-<instance part="270Ω" gate="G$1" x="30.48" y="139.7" smashed="yes">
+<instance part="R33" gate="G$1" x="30.48" y="139.7" smashed="yes">
 <attribute name="NAME" x="26.67" y="141.1986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="26.67" y="136.398" size="1.778" layer="96"/>
 </instance>
-<instance part="270Ω." gate="G$1" x="30.48" y="116.84" smashed="yes">
+<instance part="R32" gate="G$1" x="30.48" y="116.84" smashed="yes">
 <attribute name="NAME" x="26.67" y="118.3386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="26.67" y="113.538" size="1.778" layer="96"/>
 </instance>
-<instance part="270Ω*" gate="G$1" x="33.02" y="71.12" smashed="yes">
+<instance part="R13" gate="G$1" x="33.02" y="71.12" smashed="yes">
 <attribute name="NAME" x="29.21" y="72.6186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="29.21" y="67.818" size="1.778" layer="96"/>
 </instance>
-<instance part="270Ω," gate="G$1" x="33.02" y="48.26" smashed="yes">
+<instance part="R12" gate="G$1" x="33.02" y="48.26" smashed="yes">
 <attribute name="NAME" x="29.21" y="49.7586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="29.21" y="44.958" size="1.778" layer="96"/>
 </instance>
-<instance part="10KΩ*" gate="G$1" x="76.2" y="48.26" smashed="yes">
+<instance part="R11" gate="G$1" x="76.2" y="48.26" smashed="yes">
 <attribute name="NAME" x="72.39" y="49.7586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="72.39" y="44.958" size="1.778" layer="96"/>
 </instance>
-<instance part="10KΩ." gate="G$1" x="76.2" y="71.12" smashed="yes">
+<instance part="R14" gate="G$1" x="76.2" y="71.12" smashed="yes">
 <attribute name="NAME" x="72.39" y="72.6186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="72.39" y="67.818" size="1.778" layer="96"/>
 </instance>
-<instance part="10KΩ," gate="G$1" x="76.2" y="116.84" smashed="yes">
+<instance part="R31" gate="G$1" x="76.2" y="116.84" smashed="yes">
 <attribute name="NAME" x="72.39" y="118.3386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="72.39" y="113.538" size="1.778" layer="96"/>
 </instance>
-<instance part="10KΩ" gate="G$1" x="76.2" y="139.7" smashed="yes">
+<instance part="R34" gate="G$1" x="76.2" y="139.7" smashed="yes">
 <attribute name="NAME" x="72.39" y="141.1986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="72.39" y="136.398" size="1.778" layer="96"/>
 </instance>
@@ -5188,7 +5188,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </instance>
 <instance part="CONECTOR_ESQUERDO" gate="-1" x="66.04" y="121.92" smashed="yes" rot="R90">
 <attribute name="NAME" x="93.98" y="122.682" size="1.524" layer="95" rot="R180"/>
-<attribute name="VALUE" x="117.602" y="130.683" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="122.682" y="128.143" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="CONECTOR_ESQUERDO" gate="-2" x="17.78" y="116.84" smashed="yes" rot="R180">
 <attribute name="NAME" x="15.24" y="117.602" size="1.524" layer="95" rot="R180"/>
@@ -5201,7 +5201,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </instance>
 <instance part="CONECTOR_DIREITO" gate="-1" x="66.04" y="53.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="91.44" y="54.102" size="1.524" layer="95" rot="R180"/>
-<attribute name="VALUE" x="127.762" y="62.103" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="120.142" y="62.103" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="CONECTOR_DIREITO" gate="-2" x="17.78" y="48.26" smashed="yes" rot="R180">
 <attribute name="NAME" x="15.24" y="49.022" size="1.524" layer="95" rot="R180"/>
@@ -5238,34 +5238,34 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="GND13" gate="1" x="43.18" y="152.4" smashed="yes">
 <attribute name="VALUE" x="40.64" y="149.86" size="1.778" layer="96"/>
 </instance>
-<instance part="270." gate="G$1" x="30.48" y="96.52" smashed="yes">
+<instance part="R24" gate="G$1" x="30.48" y="96.52" smashed="yes">
 <attribute name="NAME" x="26.67" y="98.0186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="26.67" y="93.218" size="1.778" layer="96"/>
 </instance>
-<instance part="10K." gate="G$1" x="76.2" y="96.52" smashed="yes">
+<instance part="R23" gate="G$1" x="76.2" y="96.52" smashed="yes">
 <attribute name="NAME" x="72.39" y="98.0186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="72.39" y="93.218" size="1.778" layer="96"/>
 </instance>
-<instance part="10K" gate="G$1" x="73.66" y="162.56" smashed="yes">
+<instance part="R21" gate="G$1" x="73.66" y="162.56" smashed="yes">
 <attribute name="NAME" x="69.85" y="164.0586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="69.85" y="159.258" size="1.778" layer="96"/>
 </instance>
-<instance part="270" gate="G$1" x="30.48" y="162.56" smashed="yes">
+<instance part="R22" gate="G$1" x="30.48" y="162.56" smashed="yes">
 <attribute name="NAME" x="26.67" y="164.0586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="26.67" y="159.258" size="1.778" layer="96"/>
 </instance>
-<instance part="CENTRO" gate="-1" x="-40.64" y="91.44" smashed="yes" rot="R180">
-<attribute name="NAME" x="-43.18" y="92.202" size="1.524" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-39.878" y="90.043" size="1.778" layer="96" rot="R180"/>
+<instance part="CENTRO" gate="-1" x="66.04" y="167.64" smashed="yes" rot="R90">
+<attribute name="NAME" x="78.74" y="168.402" size="1.524" layer="95" rot="R180"/>
+<attribute name="VALUE" x="64.643" y="166.878" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="CENTRO" gate="-2" x="-40.64" y="93.98" smashed="yes" rot="R180">
-<attribute name="NAME" x="-43.18" y="94.742" size="1.524" layer="95" rot="R180"/>
+<instance part="CENTRO" gate="-2" x="17.78" y="162.56" smashed="yes" rot="R180">
+<attribute name="NAME" x="15.24" y="163.322" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="CENTRO" gate="-3" x="-40.64" y="96.52" smashed="yes" rot="R180">
-<attribute name="NAME" x="-43.18" y="97.282" size="1.524" layer="95" rot="R180"/>
+<instance part="CENTRO" gate="-3" x="66.04" y="101.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="78.74" y="102.362" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="CENTRO" gate="-4" x="-40.64" y="99.06" smashed="yes" rot="R180">
-<attribute name="NAME" x="-43.18" y="99.822" size="1.524" layer="95" rot="R180"/>
+<instance part="CENTRO" gate="-4" x="17.78" y="96.52" smashed="yes" rot="R180">
+<attribute name="NAME" x="15.24" y="97.282" size="1.524" layer="95" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -5273,28 +5273,28 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <nets>
 <net name="N$1" class="0">
 <segment>
-<pinref part="270Ω" gate="G$1" pin="2"/>
+<pinref part="R33" gate="G$1" pin="2"/>
 <pinref part="+ESQUERDO" gate="G$1" pin="A"/>
 <wire x1="35.56" y1="139.7" x2="45.72" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="270Ω." gate="G$1" pin="2"/>
+<pinref part="R32" gate="G$1" pin="2"/>
 <pinref part="ESQUERDO" gate="G$1" pin="A"/>
 <wire x1="35.56" y1="116.84" x2="45.72" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="270Ω*" gate="G$1" pin="2"/>
+<pinref part="R13" gate="G$1" pin="2"/>
 <pinref part="DIREITO" gate="G$1" pin="A"/>
 <wire x1="38.1" y1="71.12" x2="45.72" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="270Ω," gate="G$1" pin="2"/>
+<pinref part="R12" gate="G$1" pin="2"/>
 <pinref part="+DIREITO" gate="G$1" pin="A"/>
 <wire x1="38.1" y1="48.26" x2="45.72" y2="48.26" width="0.1524" layer="91"/>
 </segment>
@@ -5302,7 +5302,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <net name="ANALOG_+DI" class="0">
 <segment>
 <pinref part="+DIREITO" gate="G$1" pin="COLL"/>
-<pinref part="10KΩ*" gate="G$1" pin="1"/>
+<pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="48.26" x2="66.04" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="48.26" x2="71.12" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="50.8" x2="66.04" y2="48.26" width="0.1524" layer="91"/>
@@ -5313,7 +5313,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <net name="ANALOG_DI" class="0">
 <segment>
 <pinref part="DIREITO" gate="G$1" pin="COLL"/>
-<pinref part="10KΩ." gate="G$1" pin="1"/>
+<pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="71.12" x2="66.04" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="71.12" x2="71.12" y2="71.12" width="0.1524" layer="91"/>
 <junction x="66.04" y="71.12"/>
@@ -5325,7 +5325,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <net name="ANALOG_ESQ" class="0">
 <segment>
 <pinref part="ESQUERDO" gate="G$1" pin="COLL"/>
-<pinref part="10KΩ," gate="G$1" pin="1"/>
+<pinref part="R31" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="116.84" x2="66.04" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="116.84" x2="71.12" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="116.84" x2="66.04" y2="119.38" width="0.1524" layer="91"/>
@@ -5336,7 +5336,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <net name="ANALOG_+ESQ." class="0">
 <segment>
 <pinref part="+ESQUERDO" gate="G$1" pin="COLL"/>
-<pinref part="10KΩ" gate="G$1" pin="1"/>
+<pinref part="R34" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="139.7" x2="66.04" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="139.7" x2="71.12" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="144.78" x2="66.04" y2="139.7" width="0.1524" layer="91"/>
@@ -5425,17 +5425,17 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="10KΩ" gate="G$1" pin="2"/>
+<pinref part="R34" gate="G$1" pin="2"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
 <wire x1="81.28" y1="139.7" x2="88.9" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="10KΩ," gate="G$1" pin="2"/>
+<pinref part="R31" gate="G$1" pin="2"/>
 <pinref part="P+2" gate="1" pin="+5V"/>
 <wire x1="81.28" y1="116.84" x2="88.9" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="10KΩ." gate="G$1" pin="2"/>
+<pinref part="R14" gate="G$1" pin="2"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
 <wire x1="81.28" y1="71.12" x2="88.9" y2="71.12" width="0.1524" layer="91"/>
 </segment>
@@ -5445,45 +5445,45 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="25.4" y1="25.4" x2="30.48" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="10KΩ*" gate="G$1" pin="2"/>
+<pinref part="R11" gate="G$1" pin="2"/>
 <pinref part="P+4" gate="1" pin="+5V"/>
 <wire x1="81.28" y1="48.26" x2="88.9" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="10K." gate="G$1" pin="2"/>
+<pinref part="R23" gate="G$1" pin="2"/>
 <pinref part="P+6" gate="1" pin="+5V"/>
 <wire x1="81.28" y1="96.52" x2="88.9" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="10K" gate="G$1" pin="2"/>
+<pinref part="R21" gate="G$1" pin="2"/>
 <pinref part="P+7" gate="1" pin="+5V"/>
 <wire x1="78.74" y1="162.56" x2="88.9" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIGITAL_ESQ." class="0">
 <segment>
-<pinref part="270Ω." gate="G$1" pin="1"/>
+<pinref part="R32" gate="G$1" pin="1"/>
 <pinref part="CONECTOR_ESQUERDO" gate="-2" pin="S"/>
 <wire x1="25.4" y1="116.84" x2="20.32" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIGITAL+ESQ." class="0">
 <segment>
-<pinref part="270Ω" gate="G$1" pin="1"/>
+<pinref part="R33" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="139.7" x2="25.4" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="CONECTOR_ESQUERDO" gate="-3" pin="S"/>
 </segment>
 </net>
 <net name="DIGITAL_DI" class="0">
 <segment>
-<pinref part="270Ω*" gate="G$1" pin="1"/>
+<pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="71.12" x2="27.94" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="CONECTOR_DIREITO" gate="-3" pin="S"/>
 </segment>
 </net>
 <net name="DIGITAL_+DI" class="0">
 <segment>
-<pinref part="270Ω," gate="G$1" pin="1"/>
+<pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="48.26" x2="27.94" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="CONECTOR_DIREITO" gate="-2" pin="S"/>
 </segment>
@@ -5491,29 +5491,51 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <net name="N$6" class="0">
 <segment>
 <pinref part="CENTRAL" gate="G$1" pin="COLL"/>
-<pinref part="10K." gate="G$1" pin="1"/>
-<wire x1="60.96" y1="96.52" x2="71.12" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="R23" gate="G$1" pin="1"/>
+<wire x1="60.96" y1="96.52" x2="66.04" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="CENTRO" gate="-3" pin="S"/>
+<wire x1="66.04" y1="96.52" x2="71.12" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="99.06" x2="66.04" y2="96.52" width="0.1524" layer="91"/>
+<junction x="66.04" y="96.52"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="CENTRAL" gate="G$1" pin="A"/>
-<pinref part="270." gate="G$1" pin="2"/>
+<pinref part="R24" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="96.52" x2="35.56" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="FRONTAL" gate="G$1" pin="COLL"/>
-<pinref part="10K" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="162.56" x2="68.58" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="R21" gate="G$1" pin="1"/>
+<wire x1="60.96" y1="162.56" x2="66.04" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="CENTRO" gate="-1" pin="S"/>
+<wire x1="66.04" y1="162.56" x2="68.58" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="165.1" x2="66.04" y2="162.56" width="0.1524" layer="91"/>
+<junction x="66.04" y="162.56"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="FRONTAL" gate="G$1" pin="A"/>
-<pinref part="270" gate="G$1" pin="2"/>
+<pinref part="R22" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="162.56" x2="35.56" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="CENTRO" gate="-2" pin="S"/>
+<pinref part="R22" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="162.56" x2="25.4" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="CENTRO" gate="-4" pin="S"/>
+<pinref part="R24" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="96.52" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
