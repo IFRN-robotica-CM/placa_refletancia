@@ -5271,28 +5271,28 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
+<net name="DIGITA+ESQ" class="0">
 <segment>
 <pinref part="R33" gate="G$1" pin="2"/>
 <pinref part="+ESQUERDO" gate="G$1" pin="A"/>
 <wire x1="35.56" y1="139.7" x2="45.72" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="DIGITAL" class="0">
 <segment>
 <pinref part="R32" gate="G$1" pin="2"/>
 <pinref part="ESQUERDO" gate="G$1" pin="A"/>
 <wire x1="35.56" y1="116.84" x2="45.72" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="DIGTAL-DI" class="0">
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
 <pinref part="DIREITO" gate="G$1" pin="A"/>
 <wire x1="38.1" y1="71.12" x2="45.72" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="DIGITAL+DIR" class="0">
 <segment>
 <pinref part="R12" gate="G$1" pin="2"/>
 <pinref part="+DIREITO" gate="G$1" pin="A"/>
@@ -5333,7 +5333,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="CONECTOR_ESQUERDO" gate="-1" pin="S"/>
 </segment>
 </net>
-<net name="ANALOG_+ESQ." class="0">
+<net name="ANALOG+ESQ" class="0">
 <segment>
 <pinref part="+ESQUERDO" gate="G$1" pin="COLL"/>
 <pinref part="R34" gate="G$1" pin="1"/>
@@ -5460,14 +5460,14 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="78.74" y1="162.56" x2="88.9" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DIGITAL_ESQ." class="0">
+<net name="DIGITAL_ESQ" class="0">
 <segment>
 <pinref part="R32" gate="G$1" pin="1"/>
 <pinref part="CONECTOR_ESQUERDO" gate="-2" pin="S"/>
 <wire x1="25.4" y1="116.84" x2="20.32" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DIGITAL+ESQ." class="0">
+<net name="DIGITAL+ESQ" class="0">
 <segment>
 <pinref part="R33" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="139.7" x2="25.4" y2="139.7" width="0.1524" layer="91"/>
@@ -5488,7 +5488,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="CONECTOR_DIREITO" gate="-2" pin="S"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="ANALOG_CE" class="0">
 <segment>
 <pinref part="CENTRAL" gate="G$1" pin="COLL"/>
 <pinref part="R23" gate="G$1" pin="1"/>
@@ -5499,14 +5499,14 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <junction x="66.04" y="96.52"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="CENTRAL" class="0">
 <segment>
 <pinref part="CENTRAL" gate="G$1" pin="A"/>
 <pinref part="R24" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="96.52" x2="35.56" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="ANALOG_FR" class="0">
 <segment>
 <pinref part="FRONTAL" gate="G$1" pin="COLL"/>
 <pinref part="R21" gate="G$1" pin="1"/>
@@ -5517,21 +5517,21 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <junction x="66.04" y="162.56"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="DIGITAL_FR" class="0">
 <segment>
 <pinref part="FRONTAL" gate="G$1" pin="A"/>
 <pinref part="R22" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="162.56" x2="35.56" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="FRONTAL" class="0">
 <segment>
 <pinref part="CENTRO" gate="-2" pin="S"/>
 <pinref part="R22" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="162.56" x2="25.4" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="DIGITAL_CE" class="0">
 <segment>
 <pinref part="CENTRO" gate="-4" pin="S"/>
 <pinref part="R24" gate="G$1" pin="1"/>

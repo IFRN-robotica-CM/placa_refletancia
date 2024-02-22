@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -139,14 +139,14 @@
 <hole x="36.83" y="57.15" drill="3"/>
 <hole x="57.15" y="57.15" drill="3"/>
 <hole x="46.99" y="57.15" drill="3"/>
-<wire x1="13" y1="75" x2="77.5" y2="75" width="0.127" layer="20"/>
-<wire x1="77.5" y1="75" x2="88.5" y2="64" width="0.127" layer="20"/>
-<wire x1="88.5" y1="64" x2="88.5" y2="22" width="0.127" layer="20"/>
-<wire x1="88.5" y1="22" x2="70.5" y2="4" width="0.127" layer="20"/>
-<wire x1="70.5" y1="4" x2="27" y2="4" width="0.127" layer="20"/>
-<wire x1="27" y1="4" x2="3.5" y2="27.5" width="0.127" layer="20"/>
-<wire x1="3.5" y1="27.5" x2="3.5" y2="65.5" width="0.127" layer="20"/>
-<wire x1="3.5" y1="65.5" x2="13" y2="75" width="0.127" layer="20"/>
+<wire x1="13.3" y1="73.85" x2="78.5" y2="73.9" width="0.127" layer="20"/>
+<wire x1="78.5" y1="73.9" x2="86" y2="66.5" width="0.127" layer="20"/>
+<wire x1="86" y1="66.5" x2="85.9" y2="20.55" width="0.127" layer="20"/>
+<wire x1="85.9" y1="20.55" x2="70.7" y2="5.3" width="0.127" layer="20"/>
+<wire x1="70.7" y1="5.3" x2="21.95" y2="5.3" width="0.127" layer="20"/>
+<wire x1="21.95" y1="5.3" x2="6.25" y2="21" width="0.127" layer="20"/>
+<wire x1="6.25" y1="21" x2="6.25" y2="66.9" width="0.127" layer="20"/>
+<wire x1="6.25" y1="66.9" x2="13.3" y2="73.85" width="0.127" layer="20"/>
 </plain>
 <libraries>
 <library name="TCRT5000">
@@ -1558,50 +1558,50 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="34.16081875" y="23.93728125" size="1.27676875" layer="28" ratio="10" rot="MR0"/>
 </element>
 <element name="R33" library="rcl_robotica" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="270Ω" x="19.59" y="41.99" smashed="yes" rot="R270">
-<attribute name="NAME" x="17.2584" y="44.1236" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="19.2584" y="43.6236" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="POPULARITY" value="48" x="-7.08" y="-3.73" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-7.08" y="-3.73" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R32" library="rcl_robotica" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="270Ω" x="23.75" y="49.49" smashed="yes" rot="R270">
-<attribute name="NAME" x="21.4184" y="50.6236" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="23.4184" y="51.1236" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="POPULARITY" value="48" x="-13.08" y="34.25" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-13.08" y="34.25" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R13" library="rcl_robotica" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="270Ω" x="67.49" y="47.77" smashed="yes" rot="R180">
-<attribute name="NAME" x="69.8536" y="50.1016" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="68.8536" y="48.6016" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="POPULARITY" value="48" x="47.17" y="84.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="47.17" y="84.6" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R12" library="rcl_robotica" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="270Ω" x="74.89" y="43.99" smashed="yes" rot="R270">
-<attribute name="NAME" x="72.5584" y="46.3536" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="74.0584" y="45.8536" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="POPULARITY" value="48" x="38.06" y="18.59" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="38.06" y="18.59" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R11" library="rcl_robotica" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10KΩ" x="72.01" y="69.47" smashed="yes" rot="R180">
-<attribute name="NAME" x="73.3736" y="68.6116" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="73.3736" y="70.1116" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="POPULARITY" value="48" x="41.53" y="106.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="41.53" y="106.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="74.1436" y="71.7814" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R14" library="rcl_robotica" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10KΩ" x="65.61" y="61.99" smashed="yes" rot="R90">
-<attribute name="NAME" x="64.4416" y="59.6264" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="66.4416" y="60.6264" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="POPULARITY" value="48" x="102.44" y="97.55" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="102.44" y="97.55" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R31" library="rcl_robotica" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10KΩ" x="26.87" y="56.99" smashed="yes" rot="R90">
-<attribute name="NAME" x="26.0116" y="55.6264" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="27.5116" y="55.6264" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="POPULARITY" value="48" x="63.7" y="97.63" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="63.7" y="97.63" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="29.1814" y="54.8564" size="1.27" layer="27" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="25.6814" y="55.3564" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R34" library="rcl_robotica" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10KΩ" x="20.49" y="69.53" smashed="yes">
-<attribute name="NAME" x="18.3564" y="70.6984" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="48" x="66.21" y="32.7" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="66.21" y="32.7" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="18.3564" y="68.7186" size="1.27" layer="27" ratio="10"/>
+<element name="R34" library="rcl_robotica" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10KΩ" x="20.99" y="69.53" smashed="yes">
+<attribute name="NAME" x="19.3564" y="67.1984" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="48" x="66.71" y="32.7" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="66.71" y="32.7" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="18.8564" y="70.7186" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="ALIMENTACAO" library="Rembrandt Electronics - JST XH Connectors v1-0" package="JST-XH-02-PACKAGE-LONG-PAD" value="JST-XH-02-PIN-LONG-PAD" x="33.72" y="63.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="28.005" y="68.21" size="1.27" layer="25"/>
+<element name="ALIMENTACAO" library="Rembrandt Electronics - JST XH Connectors v1-0" package="JST-XH-02-PACKAGE-LONG-PAD" value="JST-XH-02-PIN-LONG-PAD" x="33.57" y="64.45" smashed="yes" rot="R180">
+<attribute name="NAME" x="27.855" y="69.16" size="1.27" layer="25"/>
 </element>
 <element name="CONECTOR_ESQUERDO" library="Rembrandt Electronics - JST XH Connectors v1-0" package="JST-XH-04-PACKAGE-LONG-PAD" value="Conector_Esquerdo" x="17.5" y="64.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="25.54" y="69.845" size="1.016" layer="25" ratio="10" rot="R180"/>
@@ -1634,28 +1634,28 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="40.14728125" y="9.54918125" size="1.27676875" layer="28" ratio="10" rot="MR90"/>
 </element>
 <element name="R24" library="rcl_robotica" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="270Ω" x="45.5" y="48.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="46.7954" y="49.54" size="0.9906" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="44.7954" y="49.54" size="0.9906" layer="25" ratio="10" rot="R270"/>
 <attribute name="POPULARITY" value="48" x="45.5" y="48.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="45.5" y="48.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="43.0174" y="49.6256" size="0.9906" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="R23" library="rcl_robotica" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10KΩ" x="47" y="69" smashed="yes" rot="R180">
-<attribute name="NAME" x="48.04" y="71.2046" size="0.9906" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="48.04" y="69.7046" size="0.9906" layer="25" ratio="10" rot="R180"/>
 <attribute name="POPULARITY" value="48" x="47" y="69" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="47" y="69" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="48.6256" y="69.4826" size="0.9906" layer="27" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="48.6256" y="71.4826" size="0.9906" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R21" library="rcl_robotica" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10KΩ" x="61.5" y="62" smashed="yes" rot="R90">
-<attribute name="NAME" x="60.2046" y="60.96" size="0.9906" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="62.2046" y="60.96" size="0.9906" layer="25" ratio="10" rot="R90"/>
 <attribute name="POPULARITY" value="48" x="61.5" y="62" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="61.5" y="62" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="61.9826" y="60.3744" size="0.9906" layer="27" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="60.4826" y="60.3744" size="0.9906" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R22" library="rcl_robotica" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="270Ω" x="53" y="48" smashed="yes" rot="R270">
-<attribute name="NAME" x="54.2954" y="49.04" size="0.9906" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="52.7954" y="49.04" size="0.9906" layer="25" ratio="10" rot="R270"/>
 <attribute name="POPULARITY" value="48" x="53" y="48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="53" y="48" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="57.5174" y="49.1256" size="0.9906" layer="27" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="51.0174" y="49.6256" size="0.9906" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="CENTRO" library="Rembrandt Electronics - JST XH Connectors v1-0" package="JST-XH-04-PACKAGE-LONG-PAD" value="" x="52" y="64" smashed="yes" rot="R180">
 <attribute name="NAME" x="49.96" y="59.155" size="1.016" layer="25" ratio="10"/>
@@ -1663,7 +1663,7 @@ design rules under a new name.</description>
 </element>
 </elements>
 <signals>
-<signal name="N$1">
+<signal name="DIGITA+ESQ">
 <contactref element="R33" pad="2"/>
 <contactref element="+ESQUERDO" pad="A"/>
 <via x="21.86" y="37.18" extent="1-16" drill="1" diameter="2.5" shape="square"/>
@@ -1672,7 +1672,7 @@ design rules under a new name.</description>
 <wire x1="19.82" y1="34.58" x2="19.82" y2="37.95" width="2" layer="16"/>
 <wire x1="19.82" y1="37.95" x2="19.59" y2="38.18" width="2" layer="16"/>
 </signal>
-<signal name="N$2">
+<signal name="DIGITAL">
 <contactref element="R32" pad="2"/>
 <contactref element="ESQUERDO" pad="A"/>
 <via x="32.04" y="37.73" extent="1-16" drill="1" diameter="2.5" shape="square"/>
@@ -1681,7 +1681,7 @@ design rules under a new name.</description>
 <wire x1="31.7" y1="37.73" x2="32.04" y2="37.73" width="1.7" layer="16"/>
 <wire x1="31.75" y1="34.58" x2="31.75" y2="37.68" width="1.7" layer="16"/>
 </signal>
-<signal name="N$3">
+<signal name="DIGTAL-DI">
 <contactref element="R13" pad="2"/>
 <contactref element="DIREITO" pad="A"/>
 <via x="62" y="38.5" extent="1-16" drill="1" diameter="2.5" shape="square"/>
@@ -1690,7 +1690,7 @@ design rules under a new name.</description>
 <wire x1="62" y1="38.5" x2="62" y2="46.09" width="1.7" layer="16"/>
 <wire x1="62" y1="46.09" x2="63.68" y2="47.77" width="1.7" layer="16"/>
 </signal>
-<signal name="N$4">
+<signal name="DIGITAL+DIR">
 <contactref element="R12" pad="2"/>
 <contactref element="+DIREITO" pad="A"/>
 <via x="74" y="38" extent="1-16" drill="1" diameter="2.5" shape="square"/>
@@ -1749,31 +1749,26 @@ design rules under a new name.</description>
 <wire x1="31.75" y1="29.08" x2="34.08" y2="29.08" width="1.7" layer="16"/>
 <wire x1="34.08" y1="29.08" x2="35.8564" y2="30.8564" width="1.7" layer="16"/>
 </signal>
-<signal name="ANALOG_+ESQ.">
+<signal name="ANALOG+ESQ">
 <contactref element="+ESQUERDO" pad="COLL"/>
 <contactref element="R34" pad="1"/>
 <via x="20.32" y="24.98" extent="1-16" drill="1" diameter="2.5" shape="square"/>
-<wire x1="17.28" y1="41.99" x2="17.28" y2="42.22" width="0.8128" layer="16"/>
-<wire x1="17.5" y1="42" x2="17.28" y2="42.22" width="0.8128" layer="16"/>
 <contactref element="CONECTOR_ESQUERDO" pad="4"/>
-<wire x1="16.5" y1="48.690096875" x2="13.69" y2="51.5" width="1.8" layer="16"/>
+<wire x1="13.69" y1="51.5" x2="16.5" y2="48.690096875" width="1.8" layer="16"/>
 <wire x1="13.69" y1="64.5" x2="13.69" y2="51.5" width="1.8" layer="16"/>
-<wire x1="16.5" y1="48.690096875" x2="16.5" y2="43.77" width="1.8" layer="16"/>
-<wire x1="17.28" y1="41.99" x2="17" y2="42.27" width="1.8" layer="16"/>
-<wire x1="18" y1="42.27" x2="16.5" y2="43.77" width="1.8" layer="16"/>
-<wire x1="17" y1="42.27" x2="18" y2="42.27" width="1.3" layer="16"/>
 <wire x1="18" y1="42.27" x2="21.08" y2="42.27" width="1.3" layer="16"/>
 <wire x1="21.08" y1="42.27" x2="24.15" y2="39.2" width="1.3" layer="16"/>
-<wire x1="17.29" y1="42" x2="17.5" y2="42" width="1.3" layer="16"/>
 <wire x1="19.82" y1="29.08" x2="20.32" y2="28.58" width="1.3" layer="16"/>
 <wire x1="20.32" y1="28.58" x2="20.32" y2="24.98" width="1.3" layer="16"/>
 <wire x1="22.58" y1="29.08" x2="19.82" y2="29.08" width="1.3" layer="16"/>
 <wire x1="24.15" y1="30.65" x2="22.58" y2="29.08" width="1.2" layer="16"/>
 <wire x1="24.15" y1="39.2" x2="24.15" y2="30.65" width="1.18" layer="16"/>
-<wire x1="16.68" y1="69.53" x2="15.03" y2="69.53" width="1.6" layer="16"/>
+<wire x1="17.18" y1="69.53" x2="15.03" y2="69.53" width="1.6" layer="16"/>
 <wire x1="15.03" y1="69.53" x2="13.5" y2="68" width="1.6" layer="16"/>
 <wire x1="13.5" y1="68" x2="13.5" y2="64.69" width="1.6" layer="16"/>
 <wire x1="13.5" y1="64.69" x2="13.69" y2="64.5" width="1.6" layer="16"/>
+<wire x1="16.5" y1="43.77" x2="18" y2="42.27" width="1.8" layer="16"/>
+<wire x1="16.5" y1="48.690096875" x2="16.5" y2="43.77" width="1.8" layer="16"/>
 </signal>
 <signal name="GND">
 <contactref element="+DIREITO" pad="CATH"/>
@@ -1784,13 +1779,13 @@ design rules under a new name.</description>
 <contactref element="+ESQUERDO" pad="E"/>
 <contactref element="ALIMENTACAO" pad="1"/>
 <polygon width="0.6096" layer="16">
-<vertex x="-6.1357125" y="7.1957125"/>
+<vertex x="-1.224996875" y="2.284996875"/>
 <vertex x="-0.3" y="1.36"/>
 <vertex x="86.47" y="1.36"/>
 <vertex x="94.32" y="9.21"/>
 <vertex x="94.32" y="69.69"/>
 <vertex x="83.28148125" y="80.72851875"/>
-<vertex x="-4.798753125" y="80.72851875"/>
+<vertex x="0.201246875" y="80.72851875"/>
 </polygon>
 <contactref element="+ESQUERDO" pad="CATH"/>
 <via x="16.93" y="24.29" extent="1-16" drill="1" diameter="2.5" shape="square"/>
@@ -1820,8 +1815,8 @@ design rules under a new name.</description>
 <wire x1="28" y1="69.5" x2="32.5" y2="69.5" width="1.3" layer="16"/>
 <contactref element="R23" pad="2"/>
 <contactref element="R21" pad="2"/>
-<wire x1="32.45" y1="63.5" x2="32.5" y2="63.55" width="1.5" layer="16"/>
-<wire x1="32.5" y1="63.55" x2="32.5" y2="69.5" width="1.5" layer="16"/>
+<wire x1="32.3" y1="64.45" x2="32.5" y2="64.65" width="1.5" layer="16"/>
+<wire x1="32.5" y1="64.65" x2="32.5" y2="69.5" width="1.5" layer="16"/>
 <wire x1="28" y1="69.5" x2="26.87" y2="68.37" width="1.5" layer="16"/>
 <wire x1="26.87" y1="68.37" x2="26.87" y2="60.8" width="1.5" layer="16"/>
 <wire x1="32.5" y1="69.5" x2="41.5" y2="69.5" width="1.5" layer="16"/>
@@ -1830,7 +1825,7 @@ design rules under a new name.</description>
 <wire x1="65.61" y1="65.8" x2="65.61" y2="68.39" width="1.5" layer="16"/>
 <wire x1="65.61" y1="68.39" x2="64.5" y2="69.5" width="1.5" layer="16"/>
 <wire x1="41.5" y1="69.5" x2="43.5" y2="71.5" width="1.5" layer="16"/>
-<wire x1="24.3" y1="69.53" x2="27.97" y2="69.53" width="1.6" layer="16"/>
+<wire x1="24.8" y1="69.53" x2="27.97" y2="69.53" width="1.6" layer="16"/>
 <wire x1="27.97" y1="69.53" x2="28" y2="69.5" width="1.6" layer="16"/>
 <wire x1="68.2" y1="69.47" x2="64.53" y2="69.47" width="1.6" layer="16"/>
 <wire x1="64.53" y1="69.47" x2="64.5" y2="69.5" width="1.6" layer="16"/>
@@ -1839,14 +1834,14 @@ design rules under a new name.</description>
 <wire x1="43.19" y1="69" x2="42" y2="69" width="1.5" layer="16"/>
 <wire x1="42" y1="69" x2="41.5" y2="69.5" width="1.5" layer="16"/>
 </signal>
-<signal name="DIGITAL_ESQ.">
+<signal name="DIGITAL_ESQ">
 <contactref element="R32" pad="1"/>
 <contactref element="CONECTOR_ESQUERDO" pad="2"/>
 <wire x1="23.75" y1="53.3" x2="23.75" y2="54.52" width="1.7" layer="16"/>
 <wire x1="23.75" y1="54.52" x2="18.77" y2="59.5" width="1.7" layer="16"/>
 <wire x1="18.77" y1="59.5" x2="18.77" y2="64.5" width="1.7" layer="16"/>
 </signal>
-<signal name="DIGITAL+ESQ.">
+<signal name="DIGITAL+ESQ">
 <contactref element="R33" pad="1"/>
 <contactref element="CONECTOR_ESQUERDO" pad="3"/>
 <wire x1="16.23" y1="64.5" x2="16.23" y2="53.5" width="1.8" layer="16"/>
@@ -1866,24 +1861,21 @@ design rules under a new name.</description>
 <wire x1="74.89" y1="47.8" x2="74.89" y2="62.88" width="1.7" layer="16"/>
 <wire x1="74.89" y1="62.88" x2="74.77" y2="63" width="1.7" layer="16"/>
 </signal>
-<signal name="N$6">
+<signal name="ANALOG_CE">
 <contactref element="CENTRAL" pad="COLL"/>
 <contactref element="R23" pad="1"/>
 <via x="48.34" y="25.29" extent="1-16" drill="1" diameter="2.5" shape="square"/>
 <contactref element="CENTRO" pad="3"/>
-<wire x1="50.73" y1="64" x2="50.8116" y2="63.9184" width="1.5" layer="16"/>
-<wire x1="50.8116" y1="63.9184" x2="50.8116" y2="62.656" width="1.5" layer="16"/>
-<wire x1="50.8116" y1="62.656" x2="50.58" y2="62.4244" width="1.5" layer="16"/>
-<wire x1="50.73" y1="64" x2="50.73" y2="68.92" width="2" layer="16"/>
-<wire x1="50.73" y1="68.92" x2="50.81" y2="69" width="2" layer="16"/>
-<wire x1="50.73" y1="64" x2="50.73" y2="48.73" width="2" layer="16"/>
-<wire x1="50.73" y1="48.73" x2="50.4264" y2="48.4264" width="2" layer="16"/>
-<wire x1="50.4264" y1="48.4264" x2="50.4264" y2="27.3764" width="1.5" layer="16"/>
-<wire x1="50.4264" y1="27.3764" x2="48.34" y2="25.29" width="1.5" layer="16"/>
 <wire x1="46.77" y1="28.8" x2="46.77" y2="26.86" width="2" layer="16"/>
 <wire x1="46.77" y1="26.86" x2="48.34" y2="25.29" width="2" layer="16"/>
+<wire x1="50.4936" y1="27.4436" x2="48.34" y2="25.29" width="1.5" layer="16"/>
+<wire x1="50.81" y1="69" x2="50.81" y2="64.08" width="1.8" layer="16"/>
+<wire x1="50.81" y1="64.08" x2="50.73" y2="64" width="1.8" layer="16"/>
+<wire x1="50.73" y1="64" x2="50.73" y2="48.23" width="1.5" layer="16"/>
+<wire x1="50.4936" y1="47.9936" x2="50.4936" y2="27.4436" width="1.5" layer="16"/>
+<wire x1="50.73" y1="48.23" x2="50.4936" y2="47.9936" width="1.5" layer="16"/>
 </signal>
-<signal name="N$7">
+<signal name="CENTRAL">
 <contactref element="CENTRAL" pad="A"/>
 <contactref element="R24" pad="2"/>
 <via x="46.84" y="38.37" extent="1-16" drill="1" diameter="2.5" shape="square"/>
@@ -1893,7 +1885,7 @@ design rules under a new name.</description>
 <wire x1="46.84" y1="38.37" x2="47" y2="38.53" width="1.7" layer="16"/>
 <wire x1="47" y1="43.19" x2="47" y2="38.53" width="1.7" layer="16"/>
 </signal>
-<signal name="N$8">
+<signal name="ANALOG_FR">
 <contactref element="FRONTAL" pad="COLL"/>
 <contactref element="R21" pad="1"/>
 <wire x1="46.77" y1="11.75" x2="46.77" y2="11.464" width="1.27" layer="16"/>
@@ -1913,7 +1905,7 @@ design rules under a new name.</description>
 <wire x1="54.65" y1="40.65" x2="55.5" y2="41.5" width="1.6" layer="16"/>
 <wire x1="55.5" y1="41.5" x2="55.5" y2="49.5" width="1.6" layer="16"/>
 </signal>
-<signal name="N$9">
+<signal name="DIGITAL_FR">
 <contactref element="FRONTAL" pad="A"/>
 <contactref element="R22" pad="2"/>
 <via x="51.84" y="19.79" extent="1-16" drill="1" diameter="2.5" shape="square"/>
@@ -1923,13 +1915,13 @@ design rules under a new name.</description>
 <wire x1="49.3" y1="17.25" x2="51.84" y2="19.79" width="1.7" layer="16"/>
 <wire x1="53" y1="44.19" x2="52.5" y2="43.69" width="1.5" layer="16"/>
 </signal>
-<signal name="N$5">
+<signal name="FRONTAL">
 <contactref element="CENTRO" pad="2"/>
 <contactref element="R22" pad="1"/>
 <wire x1="53.27" y1="64" x2="53.27" y2="52.08" width="1.5" layer="16"/>
 <wire x1="53.27" y1="52.08" x2="53" y2="51.81" width="1.5" layer="16"/>
 </signal>
-<signal name="N$10">
+<signal name="DIGITAL_CE">
 <contactref element="CENTRO" pad="4"/>
 <contactref element="R24" pad="1"/>
 <wire x1="48.19" y1="64" x2="43.5" y2="59.31" width="1.5" layer="16"/>
@@ -1977,6 +1969,168 @@ design rules under a new name.</description>
 <approved hash="4,1,3de513df7dab9490"/>
 <approved hash="4,1,84428bdba512e7b2"/>
 <approved hash="4,1,98e412dee2aaf590"/>
+<approved hash="4,1,000d3f6bcbfbc262"/>
+<approved hash="4,1,6215cf2964ab1c25"/>
+<approved hash="4,1,abf21f59ffa0b6e2"/>
+<approved hash="4,1,e8c54da5bb75c12b"/>
+<approved hash="4,1,e52bee96cf30d0a5"/>
+<approved hash="4,1,272ec79a7f105aa3"/>
+<approved hash="4,1,c2ba1d8747965b89"/>
+<approved hash="4,1,4befaa5ffc13b6dc"/>
+<approved hash="4,1,fde862cc1a15a1b6"/>
+<approved hash="4,1,e75acbee00ba2556"/>
+<approved hash="4,1,f58c3133af67f954"/>
+<approved hash="4,1,9a92ad41347c3b79"/>
+<approved hash="4,1,69b6fe46e0408654"/>
+<approved hash="4,1,0088eeb9b70ef400"/>
+<approved hash="4,1,68e20d2f62e41d92"/>
+<approved hash="4,1,f6d1c084b7fdd706"/>
+<approved hash="4,1,b141727fb526bff1"/>
+<approved hash="4,1,4574d10b63322b8e"/>
+<approved hash="4,1,c2bf13dd6afb79d7"/>
+<approved hash="4,1,a518b4ae4000a797"/>
+<approved hash="4,1,02ffd19f1643f814"/>
+<approved hash="4,1,af49fe77222e64fa"/>
+<approved hash="4,2,a78df666034e872f"/>
+<approved hash="4,2,4895081b8e5bf758"/>
+<approved hash="4,2,50ffcf5d6657c99e"/>
+<approved hash="4,2,9d4296d70ab47229"/>
+<approved hash="4,2,d00e7b0ec2181770"/>
+<approved hash="4,2,a2c55862a66b3e96"/>
+<approved hash="4,2,3e99a12f98606c6a"/>
+<approved hash="4,2,e7d049e78c4f83f6"/>
+<approved hash="4,3,a78df666034e872f"/>
+<approved hash="4,3,4895081b8e5bf758"/>
+<approved hash="4,3,50ffcf5d6657c99e"/>
+<approved hash="4,3,9d4296d70ab47229"/>
+<approved hash="4,3,d00e7b0ec2181770"/>
+<approved hash="4,3,a2c55862a66b3e96"/>
+<approved hash="4,3,3e99a12f98606c6a"/>
+<approved hash="4,3,e7d049e78c4f83f6"/>
+<approved hash="4,4,a78df666034e872f"/>
+<approved hash="4,4,4895081b8e5bf758"/>
+<approved hash="4,4,50ffcf5d6657c99e"/>
+<approved hash="4,4,d00e7b0ec2181770"/>
+<approved hash="4,4,9d4296d70ab47229"/>
+<approved hash="4,4,a2c55862a66b3e96"/>
+<approved hash="4,4,3e99a12f98606c6a"/>
+<approved hash="4,4,e7d049e78c4f83f6"/>
+<approved hash="4,5,e7d049e78c4f83f6"/>
+<approved hash="4,5,a78df666034e872f"/>
+<approved hash="4,5,4895081b8e5bf758"/>
+<approved hash="4,5,50ffcf5d6657c99e"/>
+<approved hash="4,5,d00e7b0ec2181770"/>
+<approved hash="4,5,9d4296d70ab47229"/>
+<approved hash="4,5,a2c55862a66b3e96"/>
+<approved hash="4,5,3e99a12f98606c6a"/>
+<approved hash="4,6,e7d049e78c4f83f6"/>
+<approved hash="4,6,a78df666034e872f"/>
+<approved hash="4,6,4895081b8e5bf758"/>
+<approved hash="4,6,50ffcf5d6657c99e"/>
+<approved hash="4,6,d00e7b0ec2181770"/>
+<approved hash="4,6,a2c55862a66b3e96"/>
+<approved hash="4,6,9d4296d70ab47229"/>
+<approved hash="4,6,3e99a12f98606c6a"/>
+<approved hash="4,7,e7d049e78c4f83f6"/>
+<approved hash="4,7,a78df666034e872f"/>
+<approved hash="4,7,4895081b8e5bf758"/>
+<approved hash="4,7,50ffcf5d6657c99e"/>
+<approved hash="4,7,d00e7b0ec2181770"/>
+<approved hash="4,7,a2c55862a66b3e96"/>
+<approved hash="4,7,9d4296d70ab47229"/>
+<approved hash="4,7,3e99a12f98606c6a"/>
+<approved hash="4,8,e7d049e78c4f83f6"/>
+<approved hash="4,8,a78df666034e872f"/>
+<approved hash="4,8,4895081b8e5bf758"/>
+<approved hash="4,8,50ffcf5d6657c99e"/>
+<approved hash="4,8,d00e7b0ec2181770"/>
+<approved hash="4,8,a2c55862a66b3e96"/>
+<approved hash="4,8,3e99a12f98606c6a"/>
+<approved hash="4,8,9d4296d70ab47229"/>
+<approved hash="4,9,9d4296d70ab47229"/>
+<approved hash="4,9,e7d049e78c4f83f6"/>
+<approved hash="4,9,a78df666034e872f"/>
+<approved hash="4,9,4895081b8e5bf758"/>
+<approved hash="4,9,50ffcf5d6657c99e"/>
+<approved hash="4,9,d00e7b0ec2181770"/>
+<approved hash="4,9,a2c55862a66b3e96"/>
+<approved hash="4,9,3e99a12f98606c6a"/>
+<approved hash="4,10,e7d049e78c4f83f6"/>
+<approved hash="4,10,9d4296d70ab47229"/>
+<approved hash="4,10,a78df666034e872f"/>
+<approved hash="4,10,4895081b8e5bf758"/>
+<approved hash="4,10,50ffcf5d6657c99e"/>
+<approved hash="4,10,d00e7b0ec2181770"/>
+<approved hash="4,10,a2c55862a66b3e96"/>
+<approved hash="4,10,3e99a12f98606c6a"/>
+<approved hash="4,11,e7d049e78c4f83f6"/>
+<approved hash="4,11,9d4296d70ab47229"/>
+<approved hash="4,11,a78df666034e872f"/>
+<approved hash="4,11,4895081b8e5bf758"/>
+<approved hash="4,11,50ffcf5d6657c99e"/>
+<approved hash="4,11,d00e7b0ec2181770"/>
+<approved hash="4,11,a2c55862a66b3e96"/>
+<approved hash="4,11,3e99a12f98606c6a"/>
+<approved hash="4,12,e7d049e78c4f83f6"/>
+<approved hash="4,12,a78df666034e872f"/>
+<approved hash="4,12,9d4296d70ab47229"/>
+<approved hash="4,12,4895081b8e5bf758"/>
+<approved hash="4,12,50ffcf5d6657c99e"/>
+<approved hash="4,12,d00e7b0ec2181770"/>
+<approved hash="4,12,a2c55862a66b3e96"/>
+<approved hash="4,12,3e99a12f98606c6a"/>
+<approved hash="4,13,e7d049e78c4f83f6"/>
+<approved hash="4,13,a78df666034e872f"/>
+<approved hash="4,13,9d4296d70ab47229"/>
+<approved hash="4,13,4895081b8e5bf758"/>
+<approved hash="4,13,50ffcf5d6657c99e"/>
+<approved hash="4,13,d00e7b0ec2181770"/>
+<approved hash="4,13,a2c55862a66b3e96"/>
+<approved hash="4,13,3e99a12f98606c6a"/>
+<approved hash="4,14,e7d049e78c4f83f6"/>
+<approved hash="4,14,a78df666034e872f"/>
+<approved hash="4,14,9d4296d70ab47229"/>
+<approved hash="4,14,4895081b8e5bf758"/>
+<approved hash="4,14,50ffcf5d6657c99e"/>
+<approved hash="4,14,d00e7b0ec2181770"/>
+<approved hash="4,14,a2c55862a66b3e96"/>
+<approved hash="4,14,3e99a12f98606c6a"/>
+<approved hash="4,15,e7d049e78c4f83f6"/>
+<approved hash="4,15,a78df666034e872f"/>
+<approved hash="4,15,4895081b8e5bf758"/>
+<approved hash="4,15,9d4296d70ab47229"/>
+<approved hash="4,15,50ffcf5d6657c99e"/>
+<approved hash="4,15,d00e7b0ec2181770"/>
+<approved hash="4,15,a2c55862a66b3e96"/>
+<approved hash="4,15,3e99a12f98606c6a"/>
+<approved hash="4,16,9be76fb128425e18"/>
+<approved hash="4,16,141b8b05882ca609"/>
+<approved hash="4,16,951cf21d61f26191"/>
+<approved hash="4,16,903f9e98c3649bb5"/>
+<approved hash="4,16,4ddb9efc882fdcec"/>
+<approved hash="4,16,03e7952edfd69702"/>
+<approved hash="4,16,72f749bccc0a3298"/>
+<approved hash="4,16,668a88aaa94a13d0"/>
+<approved hash="4,16,322f5899f1308a25"/>
+<approved hash="4,16,e8eab96e82c40810"/>
+<approved hash="4,16,6f02d81aba59e8af"/>
+<approved hash="4,16,e865b85a6c058910"/>
+<approved hash="4,16,8a18109eeecc92a8"/>
+<approved hash="4,16,f58c3133af67f954"/>
+<approved hash="4,16,8b713ec4df8dde92"/>
+<approved hash="4,16,588541dbc128db8f"/>
+<approved hash="4,16,905ffddcfa20f627"/>
+<approved hash="4,16,fde862cc1a15a1b6"/>
+<approved hash="4,16,674a79191c3a3402"/>
+<approved hash="4,16,92f6d137c510f59a"/>
+<approved hash="4,16,88f03ff032425f92"/>
+<approved hash="4,16,7eced04a268b9065"/>
+<approved hash="4,16,6c04a31bb9219919"/>
+<approved hash="4,16,90dbfe5656ee08a2"/>
+<approved hash="4,16,e1fba1b07ff20d21"/>
+<approved hash="4,16,c082879c0d576bd8"/>
+<approved hash="4,16,882116a5ec0fd12f"/>
+<approved hash="4,16,e2fc27b4ff314da7"/>
 </errors>
 </board>
 </drawing>
